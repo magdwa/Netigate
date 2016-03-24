@@ -59,7 +59,7 @@ namespace NetiGateAPI
             Console.WriteLine("It took: " + elapsedSeconds + " to get the answers");
 
 
-            //write customers responses to variable 
+            //write customers responses to the variable  
 
             string csv =
                 (from elm in answers.Elements("AnswerSets").Elements("AnswerSet")
