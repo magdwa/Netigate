@@ -99,6 +99,7 @@ namespace NetiGateAPI
 'to jest trzeci test
 'to jest test czwarty
 kolejny test
+'i jeszcze kolejny
             // write customers response to .csv file
             System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\New folder\\Test.csv");
             file.WriteLine(csv);
