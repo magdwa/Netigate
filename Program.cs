@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -95,8 +95,8 @@ namespace NetiGateAPI
 
             Console.WriteLine(csv);
 
- 
-
+ 'to jest test
+'to jest trzeci test
 
             // write customers response to .csv file
             System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\New folder\\Test.csv");
